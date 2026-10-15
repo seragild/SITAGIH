@@ -9,7 +9,7 @@ Aplikasi desktop Java Swing untuk pencatatan satker dan tagihan, pengendalian tr
 - Swing; `MainFrame.form` menyediakan kerangka JFrame yang dikenali NetBeans GUI Builder. Isi tab dibangun dengan Swing dari kode agar mudah dipelihara.
 - JUnit Jupiter untuk pengujian unit
 
-- ## Fitur
+## Fitur
 - CRUD Satker: tambah, daftar, ubah, hapus; penghapusan ditolak apabila satker masih memiliki tagihan.
 - Input dan daftar tagihan.
 - Transisi status berurutan: `DIAJUKAN → DIVERIFIKASI → DISETUJUI` atau `DIAJUKAN → DIVERIFIKASI → DITOLAK`. Status terminal tidak dapat dilanjutkan. Penolakan memerlukan alasan.
