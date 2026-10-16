@@ -4,10 +4,10 @@
  */
 package id.pjj.sitagihseragild.repository;
 
-import id.pjj.sitagih.db.Database;
-import id.pjj.sitagih.exception.ValidasiException;
-import id.pjj.sitagih.model.StatusTagihan;
-import id.pjj.sitagih.model.Tagihan;
+import id.pjj.sitagihseragild.db.Database;
+import id.pjj.sitagihseragild.exception.ValidasiException;
+import id.pjj.sitagihseragild.model.StatusTagihan;
+import id.pjj.sitagihseragild.model.Tagihan;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
