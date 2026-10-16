@@ -4,7 +4,7 @@
  */
 package id.pjj.sitagihseragild.setup;
 
-import id.pjj.sitagih.db.Database;
+import id.pjj.sitagihseragild.db.Database;
 import java.sql.Connection;
 
 /**
