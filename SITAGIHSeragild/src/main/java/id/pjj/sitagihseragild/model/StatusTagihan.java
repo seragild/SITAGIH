@@ -8,6 +8,9 @@ package id.pjj.sitagihseragild.model;
  *
  * @author Zaman PC
  */
-class StatusTagihan {
-    
+public enum StatusTagihan {
+    DIAJUKAN,
+    DIVERIFIKASI,
+    DISETUJUI,
+    DITOLAK
 }
