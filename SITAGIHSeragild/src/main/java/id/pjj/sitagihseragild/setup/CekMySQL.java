@@ -4,10 +4,24 @@
  */
 package id.pjj.sitagihseragild.setup;
 
+import id.pjj.sitagih.db.Database;
+import java.sql.Connection;
+
 /**
  *
- * @author Zaman PC
+ * @author 060111601
  */
+
 public class CekMySQL {
-    
+    public static void main(String[] args) {
+        try (Connection c = Database.bukaServer()) {
+            System.out.println("BERHASIL: MySQL Server dapat dihubungi.");
+            System.out.println("Host : " + Database.host());
+            System.out.println("Port : " + Database.port());
+            System.out.println("User : " + Database.user());
+        } catch (Exception e) {
+            System.out.println("GAGAL TERHUBUNG KE MYSQL");
+            System.out.println(e.getClass().getSimpleName() + ": " + e.getMessage());
+        }
+    }
 }
