@@ -1,8 +1,8 @@
-package id.pjj.sitagih.service;
+package id.pjj.sitagihseragild.service;
 
-import id.pjj.sitagih.db.Database;
-import id.pjj.sitagih.exception.ValidasiException;
-import id.pjj.sitagih.model.*;
+import id.pjj.sitagihseragild.db.Database;
+import id.pjj.sitagihseragild.exception.ValidasiException;
+import id.pjj.sitagihseragild.model.*;
 import java.sql.*;
 
 public class TagihanService {
