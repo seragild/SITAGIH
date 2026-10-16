@@ -1,6 +1,6 @@
-package id.pjj.sitagih.service;
+package id.pjj.sitagihseragild.service;
 
-import id.pjj.sitagih.model.*;
+import id.pjj.sitagihseragild.model.*;
 import java.util.*;
 
 public class RekapService {
