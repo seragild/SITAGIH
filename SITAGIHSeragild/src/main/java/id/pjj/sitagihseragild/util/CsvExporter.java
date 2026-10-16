@@ -40,10 +40,6 @@ public class CsvExporter {
         }
     }
 
-    /**
-     * Mengamankan teks untuk format CSV.
-     * Tanda kutip di dalam teks digandakan.
-     */
     private static String q(String s) {
 
         if (s == null) {
