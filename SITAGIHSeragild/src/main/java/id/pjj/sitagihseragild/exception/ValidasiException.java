@@ -1,4 +1,4 @@
-package id.pjj.sitagih.exception;
+package id.pjj.sitagihseragild.exception;
 
 public class ValidasiException extends Exception {
     public ValidasiException(String pesan) { super(pesan); }
