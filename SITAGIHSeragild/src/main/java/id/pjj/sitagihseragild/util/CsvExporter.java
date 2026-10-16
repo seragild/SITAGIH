@@ -4,7 +4,7 @@
  */
 package id.pjj.sitagihseragild.util;
 
-import id.pjj.sitagih.model.Tagihan;
+import id.pjj.sitagihseragild.model.Tagihan;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.List;
@@ -52,3 +52,4 @@ public class CsvExporter {
 
         return "\"" + s.replace("\"", "\"\"") + "\"";
     }
+}
