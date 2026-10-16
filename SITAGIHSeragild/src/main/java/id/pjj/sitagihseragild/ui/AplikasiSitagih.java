@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package id.pjj.sitagihseragil.ui;
+package id.pjj.sitagihseragild.ui;
 
 import javax.swing.SwingUtilities;
 
